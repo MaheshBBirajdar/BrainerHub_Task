@@ -1,9 +1,12 @@
 # BrainerHub_Task
+
 Clone Repo:-
-git clone 
+git clone https://github.com/MaheshBBirajdar/BrainerHub_Task.git
+
 
 Install requirements:-
 pip install -r requirements.txt
+
 
 Database:-
 set default sqlite3 database from settings.py
@@ -11,7 +14,6 @@ set default sqlite3 database from settings.py
 
 To migrate the database open terminal in project directory and type :-
 python manage.py makemigrations
-
 python manage.py migrate
 
 
