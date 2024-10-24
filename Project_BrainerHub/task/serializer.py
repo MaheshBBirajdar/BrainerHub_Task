@@ -5,7 +5,7 @@ from .models import Company, Employee
 class CompanySerializer(serializers.ModelSerializer):
     class Meta:
         model = Company
-        fields = ['name_of_company']
+        fields = '__all__'
 
 
 
